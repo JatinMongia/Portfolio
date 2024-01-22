@@ -1,313 +1,288 @@
+
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portflio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
- 
-  </head>
-  <script
-    src="https://kit.fontawesome.com/749bfd4aab.js"
-    crossorigin="anonymous"
-  ></script>
-
-  <body>
-    <!-- navigation bar -->
-    <header>
-      <nav>
-        <div class="left">Portfolio.</div>
-        <div class="right">
-          <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contactme">Contact me</a></li>
-            <div id="pp">
-              <a href="#about"><img src="PP.jpg" alt="profilephoto" /></a>
-            </div>
-          </ul>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+<body>
+  <header class="header">
+    <div class="header__content">s
+      <div class="header__logo-container">
+        <div class="header__logo-img-cont">
+          <img src="PP.jpg" alt="Logo Image"
+            class="header__logo-img" />
         </div>
-      </nav>
-    </header>
-    <!-- main section start -->
-    <main>
-      <!-- first section/homepage -->
-      <div id="home">
-      <section class="firstSection">
-        <div class="leftsection">
-          Hi , My name is<span class="glow"> Jatin </span>
-          <div>and I am a Passionate</div>
-          <span id="element"></span>
-        </div>
-        <div class="rightsection">
-          <img src="bg1.png" alt="" />
-        </div>
-      </section>
-      <div class="arrow bounce">
-        <a href="#about"><i class="fa-solid fa-arrow-down"></i></a>
+        <span class="header__logo-sub">Jatin Mongia</span>
       </div>
-      <hr />
+      <div class="header__main">
+        <ul class="header__links">
+          <li class="header__link-wrapper">
+            <a href="./" class="header__link"> Home </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./#about" class="header__link">About </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./#projects" class="header__link"> Projects </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./#contact" class="header__link"> Contact </a>
+          </li>
+        </ul>
+        <div class="header__main-ham-menu-cont">
+          <img src="https://d33wubrfki0l68.cloudfront.net/79e75114856ae61628d2ad26504e3ff4ab2c71b6/f06a4/assets/svg/ham-menu.svg" alt="hamburger menu" class="header__main-ham-menu" />
+          <img src="https://d33wubrfki0l68.cloudfront.net/de2a681c8ca1630b29949b3a34bf158a686a0554/6a0ec/assets/svg/ham-menu-close.svg" alt="hamburger menu close"
+            class="header__main-ham-menu-close d-none" />
+        </div>
+      </div>
     </div>
+    <div class="header__sm-menu">
+      <div class="header__sm-menu-content">
+        <ul class="header__sm-menu-links">
+          <li class="header__sm-menu-link">
+            <a href="./"> Home </a>
+          </li>
 
-      <!-- ABOUT ME PAGE -->
-      <div id="about">
-      <section class="secondSection">
-        <h1>About Me</h1>
-        <span class="text-gray"
-          >Here you will find more information about me, what I do, and my
-          current skills mostly in terms of programming and technology</span
-        >
+          <li class="header__sm-menu-link">
+            <a href="./#about"> About </a>
+          </li>
 
-        <section class="secondSection-text">
-          <div class="leftsection-Know">
-            <h2>Get to know me!</h2>
-            <p class="leftsection-Know-text">
-              I'm a <strong> Frontend Web Developer</strong> building the
+          <li class="header__sm-menu-link">
+            <a href="./#projects"> Projects </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./#contact"> Contact </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <section class="home-hero">
+    <div class="home-hero__content">
+      <h1 class="heading-primary">Hey, I'M JATIN MONGIA</h1>
+      <div class="home-hero__info">
+        <p class="text-primary">
+          "Results-driven web developer with a passion for creating seamless, user-centric experiences . Proficient in HTML, CSS, and JavaScript, seeking a dynamic role to leverage coding skills and contribute to innovative web development  projects."
+        </p>
+      </div>
+      <div class="home-hero__cta">
+        <a href="./#projects" class="btn btn--bg">Projects</a>
+      </div>
+    </div>
+    <div class="home-hero__socials">
+      <div class="home-hero__social">
+        <a href="http://www.linkedin.com/in/jatin-mongia" class="home-hero__social-icon-link" rel="noreferrer"
+          target="_blank">
+          <img src="https://d33wubrfki0l68.cloudfront.net/d8e6e1e636531e28274a1b8b6d947b817f6145bd/d42d3/assets/svg/linkedin-dark.svg" alt="Linkedin Profile"
+            class="home-hero__social-icon" />
+        </a>
+      </div>
+      
+      <div class="home-hero__social">
+        <a href="https://github.com/jatinmongia" class="home-hero__social-icon-link" rel="noreferrer" target="_blank">
+          <img src="https://d33wubrfki0l68.cloudfront.net/38469cf88d038b6ba3322c9fcb93a8f7167df4b9/cb0b9/assets/svg/github-dark.svg" alt=" Github Profile" class="home-hero__social-icon" />
+        </a>
+      </div>
+    </div>
+    <div class="home-hero__mouse-scroll-cont">
+      <div class="mouse"></div>
+    </div>
+  </section>
+  <section id="about" class="about sec-pad">
+    <div class="main-container">
+      <h2 class="heading heading-sec heading-sec__mb-med">
+        <span class="heading-sec__main">About Me</span>
+        <span class="heading-sec__sub">
+          Here you will find more information about me, what I do, and my
+          current skills mostly in terms of programming and technology
+        </span>
+      </h2>
+      <div class="about__content">
+        <div class="about__content-main">
+          <h3 class="about__content-title">Get to know me!</h3>
+          <div class="about__content-details">
+            <p class="about__content-details-para">
+              I'm a <strong>Frontend Web Developer</strong> building the
               Front-end of Websites and Web Applications that leads to the
               success of the overall product. Check out some of my work in the
               <strong>Projects</strong> section.
             </p>
-            <p class="leftsection-Know-text">
+            <p class="about__content-details-para">
               I also like sharing content related to the stuff that I have
-              learned over the years in Web Development so it can help other
-              people of the Dev Community. Feel free to Connect or Follow me on
-              my Linkedin where I post useful content related to Web Development
-              and Programming
+              learned over the years in <strong>Web Development</strong> so it
+              can help other people of the Dev Community. Feel free to Connect
+              or Follow me on my
+              <a rel="noreferrer" href="http://www.linkedin.com/in/jatin-mongia" target="_blank">Linkedin</a>
+              where I post useful content related to Web Development and
+              Programming
             </p>
-
-            <p class="leftsection-Know-text">
-              I'm open to <strong> Job</strong> opportunities where I can
+            <p class="about__content-details-para">
+              I'm open to <strong>Job</strong> opportunities where I can
               contribute, learn and grow. If you have a good opportunity that
               matches my skills and experience then don't hesitate to
               <strong>contact</strong> me.
             </p>
-            <a href="#contactme" class="btn btn--med btn--theme">Contact</a>
           </div>
-
-          <div class="rightsection-skills">
-            <h2>My skills</h2>
-            <div class="skills">
-              <div class="skills_skills">Html</div>
-              <div class="skills_skills">CSS</div>
-              <div class="skills_skills">JavaScript</div>
-              <div class="skills_skills">Node.js</div>
-              <div class="skills_skills">Flutter</div>
-            </div>
-          </div>
-          
-        </section>
-        <div class="arrow bounce">
-          <a href="#projects"><i class="fa-solid fa-arrow-down"></i></a>
+          <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr">Contact</a>
         </div>
-   
-
-    </div>
-
-      <!-- projects page -->
-      <div id="projects">
-      <section class="ThirdSection">
-        <h1>Projects</h1>
-        <span class="text-gray">Here you will find some of the personal projects that I created ,with
-          each project containing its Git-hub Link</span>
-          <div class="Container">
-          <div class="leftSection-img">
-            <div class="project-img">
-              <img src="Assets/E-commerce-website-SS.png" alt="project1_img">
-            </div>
+        <div class="about__content-skills">
+          <h3 class="about__content-title">My Skills</h3>
+          <div class="skills">
+            <div class="skills__skill">HTML</div>
+            <div class="skills__skill">CSS</div>
+            <div class="skills__skill">JavaScript</div>
+            <div class="skills__skill">React</div>
+            <div class="skills__skill">Github</div>
+            <div class="skills__skill">Responsive Design</div>
+            <div class="skills__skill">SQL Basics</div>
           </div>
-          <div class="rightSection-Text">
-            <div class="rightSection-Text-Heading">
-              <h2>E-Commerce Website</h2>
-            </div>
-            <div class="rightSection-Text-desc">
-             Crafted a dynamic E-commerce oasis with HTML, CSS, and JS magic! Seamlessly blending aesthetics with functionality, I designed and developed a user-centric online shopping platform. From responsive layouts ensuring a smooth experience on any device to interactive elements powered by JavaScript, the website offers a delightful journey for shoppers. CSS wizardry brought visual harmony, while JS added a touch of interactivity with smooth transitions and dynamic content updates. Elevating user engagement and optimizing the buying process, this project showcases not just a website but an immersive shopping experience tailored for the modern digital landscape. 
-             
-            </div>
-            <div class="btn btn--med btn--theme"><a href="https://github.com/JatinMongia">Git-hub</a></div>
-
-          </div>
-          <div class="leftSection-img">
-            <div class="project-img">
-              <img src="Assets/portfolio-website-SS.png" alt="project2_img">
-            </div>
-          </div>
-          <div class="rightSection-Text">
-            <div class="rightSection-Text-Heading">
-              <h2>Portfolio Website</h2>
-            </div>
-            <div class="rightSection-Text-desc">
-            Crafted a dynamic portfolio website that speaks volumes about my journey and skills. Leveraging the power trio of HTML5, CSS3, and JS, I transformed ideas into an interactive digital experience. Seamlessly blending aesthetics and functionality, the site showcases my projects, achievements, and personality. Responsive design ensures a smooth user experience across devices, reflecting my commitment to accessibility. Dive into my world through an intuitive interface, where every line of code is a testament to my passion for web development Let's connect, collaborate, and bring ideas to life! 
-            </div>
-            <div class="btn btn--med btn--theme"><a href="https://github.com/JatinMongia">Git-hub</a></div>
-
-          </div>
-          <div class="leftSection-img">
-            <div class="project-img">
-              <img src="Assets/social-media-SS.png" alt="project1_img">
-            </div>
-          </div>
-          <div class="rightSection-Text">
-            <div class="rightSection-Text-Heading">
-              <h2>Social Media Landing Page</h2>
-            </div>
-            <div class="rightSection-Text-desc">
-              Crafted a dynamic Social Media Home Page using the power trio of HTML, CSS, and JS. Seamlessly blending sleek design with intuitive functionality, the page offers a user-friendly interface for social interaction. Employed HTML for structural elegance, CSS for a visually captivating layout, and JavaScript for real-time updates and seamless navigation. This project not only showcases technical proficiency but also emphasizes a commitment to delivering engaging digital experiences. Explore the convergence of aesthetics and interactivity in the realm of social connectivity! 
-            </div>
-            <div class="btn btn--med btn--theme"><a href="https://github.com/JatinMongia">Git-hub</a></div>
-
-          </div>
-          <div class="leftSection-img">
-            <div class="project-img">
-              <img src="Assets/joke-generator-SS.png" alt="project1_img">
-            </div>
-          </div>
-          <div class="rightSection-Text">
-            <div class="rightSection-Text-Heading">
-              <h2>Random Joke Generator</h2>
-            </div>
-            <div class="rightSection-Text-desc">
-              Created a whimsical experience with my Random Joke Generator project!  Using HTML for structure, CSS for styling, and JavaScript for dynamic content, this light-hearted web app generates a chuckle with every click. The seamless blend of front-end technologies ensures an engaging user interface, while the dynamic JavaScript fetches and displays a fresh dose of humor from an array of jokes. Whether you need a break from work or a mood boost, this project encapsulates the fun side of coding. Explore the laughter at the click of a button, leaving smiles and joy in its wake! 
-            </div>
-            <div class="btn btn--med btn--theme"><a href="https://github.com/JatinMongia">Git-hub</a></div>
-
-          </div>
-
-          <div class="leftSection-img">
-            <div class="project-img">
-              <img src="Assets/Clock-SS.png" alt="project1_img">
-            </div>
-          </div>
-          <div class="rightSection-Text">
-            <div class="rightSection-Text-Heading">
-              <h2>Digital Clock</h2>
-            </div>
-            <div class="rightSection-Text-desc">
-              Dive into the world of precision with my latest creation—a sleek Digital Clock crafted with HTML, CSS, and JavaScript. Seamlessly blending aesthetics with functionality, this clock not only keeps time but does so in style. The minimalist design showcases the elegance of clean HTML markup, the responsiveness of CSS, and the dynamic updates powered by JavaScript. From real-time ticking to a smooth transition between day and night themes, this project is a testament to my passion for marrying creativity with technology. Experience time like never before—where every second is a visual delight!
-              
-            </div>
-            <div class="btn btn--med btn--theme"><a href="https://github.com/JatinMongia">Git-hub</a></div>
-
-          </div>
-          <div class="leftSection-img">
-            <div class="project-img">
-              <img src="Assets/Audio-player-SS.png" alt="project1_img">
-            </div>
-          </div>
-          <div class="rightSection-Text">
-            <div class="rightSection-Text-Heading">
-              <h2>Music Player Website</h2>
-            </div>
-            <div class="rightSection-Text-desc">
-          
-              Embark on a musical journey with Harmony Hub, a dynamic music player website crafted with HTML, CSS, and JS. Immerse yourself in seamless user experiences, as intuitive design meets powerful functionality. Navigate effortlessly through playlists, explore genres, and enjoy responsive controls that adapt to your rhythm. Harmony Hub doesn't just play music; it creates an immersive atmosphere where design and technology harmonize. Whether on desktop or mobile, your musical world is just a click away. Elevate your listening experience with Harmony Hub where every note is a step closer to auditory bliss. 
-            </div>
-            <div class="btn btn--med btn--theme"><a href="https://github.com/JatinMongia">Git-hub</a></div>
-
-          </div>
-          
-          
-          
-          
-        </div>
-        <div class="arrow bounce">
-          <a href="#contactme"><i class="fa-solid fa-arrow-down"></i></a>
-        </div>
-
-      </section>
-      
-    </div>
-<!-- contact-Me page -->
-<div id="contactme">
-<section id="contact" class="contact sec-pad dynamicBg">
-  <div class="main-container">
-    <h2 class="heading heading-sec heading-sec__mb-med">
-      <span class="heading-sec__main heading-sec__main--lt">Contact</span>
-      <span class="heading-sec__sub heading-sec__sub--lt">
-        Feel free to Contact me by submitting the form below and I will get
-        back to you as soon as possible
-      </span>
-    </h2>
-    <div class="contact__form-container">
-      <form action="#" class="contact__form" method="post"><input type="hidden" name="form-name" value="form 1">
-        <div class="contact__form-field">
-          <label class="contact__form-label" for="name">Name</label>
-          <input required="" placeholder="Enter Your Name" type="text" class="contact__form-input" name="name" id="name">
-        </div>
-        <div class="contact__form-field">
-          <label class="contact__form-label" for="email">Email</label>
-          <input required="" placeholder="Enter Your Email" type="email" class="contact__form-input" name="email" id="email">
-        </div>
-        <div class="contact__form-field">
-          <label class="contact__form-label" for="message">Message</label>
-          <textarea required="" cols="30" rows="10" class="contact__form-input" placeholder="Enter Your Message" name="message" id="message"></textarea>
-        </div>
-        <button  class="btn btn--theme contact__btn">
-          Submit
-        </button>
-      </form>
-    </div>
-  </div>
-</section>
-</div>
-<!-- footer -->
-<footer class="main-footer">
-  <div class="main-container">
-    <div class="main-footer__upper">
-      <div class="main-footer__row main-footer__row-1">
-        <h2 class="heading heading-sm main-footer__heading-sm">
-          <span>Social</span>
-        </h2>
-        <div class="main-footer__social-cont">
-         <a href="https://www.linkedin.com/in/jatin-mongia-94a4a422b/"><i class="fa-brands fa-linkedin-in"></i></a>
-         <a href="https://github.com/JatinMongia"><i class="fa-brands fa-github"></i></a>
-         
         </div>
       </div>
-      <div class="main-footer__row main-footer__row-2">
-        <h2 class="heading heading-sm text-lt">Jatin Mongia</h2>
-        <p class="main-footer__short-desc">
-          Email:-jatinmongia0880@gmail.com<br>
-          <br>
-          A Frontend focused Web Developer building the Frontend of Websites
-          and Web Applications that leads to the success of the overall
-          product
-        </p>
+    </div>
+  </section>
+  <section id="projects" class="projects sec-pad">
+    <div class="main-container">
+      <h2 class="heading heading-sec heading-sec__mb-bg">
+        <span class="heading-sec__main">Projects</span>
+        <span class="heading-sec__sub">
+          Here you will find some of the personal and clients projects that I
+          created with each project containing its own case study
+        </span>
+      </h2>
+
+      <div class="projects__content">
+        <div class="projects__row">
+          <div class="projects__row-img-cont">
+            <img src="Assets/E-commerce-website-SS.png" alt="E-COMMERCE WEBSITE SS" class="projects__row-img"
+             />
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">E-Commerce Webisite(UI)</h3>
+            <p class="projects__row-content-desc">
+              Developed a fully responsive E-commerce website using HTML, CSS, and JavaScript.
+              Implemented an intuitive user interface for seamless navigation and optimal user experience.
+            </p>
+            <a class='btn btn--med btn--theme dynamicBgClr' href='https://jatinmongia.github.io/E-commerce-website-UI/' target='_blank'>LIVE LINK</a>
+          </div>
+        </div>
+        <div class="projects__row">
+          <div class="projects__row-img-cont">
+            <img src="Assets/portfolio-website-SS.png" alt="Software Screenshot" class="projects__row-img" />
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">Portfolio Website</h3>
+            <p class="projects__row-content-desc">
+              Developed a responsive portfolio website showcasing various projects. Implemented an interactive design using HTML, CSS, and JavaScript , providing a professional platform for project display. 
+            </p>
+            <a class='btn btn--med btn--theme dynamicBgClr' href='https://jatinmongia.github.io/Portfolio/' target='_blank'>LIVE LINK</a>
+          </div>
+        </div>
+        <div class="projects__row">
+          <div class="projects__row-img-cont">
+            <img src="Assets/Audio-player-SS.png" alt="Software Screenshot" class="projects__row-img"
+              loading="lazy" />
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">Spotify Clone</h3>
+            <p class="projects__row-content-desc">
+              Crafted a responsive audio player using HTML, CSS, and JavaScript . Users can easily play music with a simple click, providing an interactive and enjoyable listening experience.
+            </p>
+            <a class='btn btn--med btn--theme dynamicBgClr' href='https://jatinmongia.github.io/Audio-player/' target='_blank'>LIVE LINK</a>
+          </div>
+        </div>
+        <div class="projects__row">
+          <div class="projects__row-img-cont">
+            <img src="Assets/Clock-SS.png" alt="Software Screenshot" class="projects__row-img"
+              loading="lazy" />
+          </div>
+          <div class="projects__row-content">
+            <h3 class="projects__row-content-title">Digital World Clock</h3>
+            <p class="projects__row-content-desc">
+            
+            </p>
+            <a class='btn btn--med btn--theme dynamicBgClr' href='https://jatinmongia.github.io/Digital-clock/' target='_blank'>LIVE LINK</a>
+          </div>
+        </div>
       </div>
     </div>
-
-    <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
-    <div class="main-footer__lower">
-      © Copyright
-      <script>document.write(new Date().getFullYear())</script> Made by
-      <a rel="noreferrer" target="_blank" href="#">JatinMongia</a>
+  </section>
+  <section id="contact" class="contact sec-pad dynamicBg">
+    <div class="main-container">
+      <h2 class="heading heading-sec heading-sec__mb-med">
+        <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+        <span class="heading-sec__sub heading-sec__sub--lt">
+          Feel free to Contact me by submitting the form below and I will get
+          back to you as soon as possible
+        </span>
+      </h2>
+      <div class="contact__form-container">
+        <form action='#' class='contact__form' method='post'><input type='hidden' name='form-name' value='form 1' />
+          <div class="contact__form-field">
+            <label class="contact__form-label" for="name">Name</label>
+            <input required placeholder="Enter Your Name" type="text" class="contact__form-input" name="name"
+              id="name" />
+          </div>
+          <div class="contact__form-field">
+            <label class="contact__form-label" for="email">Email</label>
+            <input required placeholder="Enter Your Email" type="email" class="contact__form-input" name="email"
+              id="email" />
+          </div>
+          <div class="contact__form-field">
+            <label class="contact__form-label" for="message">Message</label>
+            <textarea required cols="30" rows="10" class="contact__form-input" placeholder="Enter Your Message"
+              name="message" id="message"></textarea>
+          </div>
+          <button type="submit" class="btn btn--theme contact__btn">
+            Submit
+          </button>
+        </form>
+      </div>
     </div>
-  </div>
-</footer>
+  </section>
+  <footer class="main-footer">
+    <div class="main-container">
+      <div class="main-footer__upper">
+        <div class="main-footer__row main-footer__row-1">
+          <h2 class="heading heading-sm main-footer__heading-sm">
+            <span>Social</span>
+          </h2>
+          <div class="main-footer__social-cont">
+            <a target="_blank" rel="noreferrer" href="http://www.linkedin.com/in/jatin-mongia">
+              <img class="main-footer__icon" src="https://d33wubrfki0l68.cloudfront.net/7f29579dde49e02480372aa49f7189c5536b0118/34b92/assets/png/linkedin-ico.png"
+                alt="linkedin Profile" />
+            </a>
+            <a target="_blank" rel="noreferrer" href="https://github.com/jatinmongia">
+              <img class="main-footer__icon" src="https://d33wubrfki0l68.cloudfront.net/5557d5a11584d7201a38ee1a95200f57a4cc0f88/15085/assets/png/github-ico.png" alt="Github Profile" />
+            </a>
+            
+          </div>
+        </div>
+        <div class="main-footer__row main-footer__row-2">
+          <h2 class="heading heading-sm text-lt">JATIN MONGIA</h2>
+          <p class="main-footer__short-desc">
+            A Frontend focused Web Developer building the Frontend of Websites
+            and Web Applications that leads to the success of the overall
+            product
+          </p>
+        </div>
+      </div>
 
+     
+      <div class="main-footer__lower">
+        &copy; Copyright
+        <script>document.write(new Date().getFullYear())</script>. Made by
+        <a rel="noreferrer" target="_blank" href="https://jatinmongia.github.io/Portfolio/">Jatin Mongia</a>
+      </div>
+    </div>
+  </footer>
 
+<script src="script.js"></script>
+</body>
 
-
-
-
-
-
-
-
-    </main>
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-
-    <script>
-      var typed = new Typed("#element", {
-        strings: ["Web Developer", "Web Designer","Software Developer"],
-        typeSpeed: 50,
-      });
-    </script>
-  </body>
 </html>
