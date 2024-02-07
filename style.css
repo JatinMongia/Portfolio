@@ -362,6 +362,7 @@ textarea {
   display: block;
   -o-object-fit: cover;
   object-fit: cover;
+  border-radius: 10px;
 }
 .projects__row-content {
   padding: 2rem 0;
